@@ -1,0 +1,11 @@
+ALTER TABLE dbo.Customer
+ADD CONSTRAINT PK_Customer_CustID
+PRIMARY KEY (CustID);
+
+ALTER TABLE dbo.Vendor
+ADD CONSTRAINT PK_Vendor_VendorID
+PRIMARY KEY (VendorID);
+
+ALTER TABLE dbo.OrderEntry
+ADD CONSTRAINT PK_OrderEntry_OrderID
+PRIMARY KEY (OrderID);
